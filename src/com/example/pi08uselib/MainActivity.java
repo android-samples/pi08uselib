@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 		String msg = "";
 		
 		// サンプルHTML
-		String html = "<a href='xyz'>hoge</a>\n<a href='google'>piyo</a>";
+		String html = "<a href='http://google.co.jp/'>Google</a>\n<a href='http://yahoo.co.jp/'>Yahoo</a>";
 		
 		// HTMLパース
 		Document doc = Jsoup.parse(html);
